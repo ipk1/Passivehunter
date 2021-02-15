@@ -44,8 +44,8 @@ def main(url , domain):
     print("\u001b[34;1m")
     for i,j in cnt.items():
         print(i)
-        urls.append("https://"+i) #appending https
-        urls.append("http://"+i)  #appending http
+        urls.append(""+i) #appending https
+        urls.append(""+i)  #appending http
     print("\n\n")
     print("\u001b[0m")
 
